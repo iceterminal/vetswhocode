@@ -8,7 +8,6 @@
 	Created 3 page loop
 =======
 1.
->>>>>>> 1add0b227a8cf93bd2279256d810cb7a63b320f7
 2.
 3.
 4.
