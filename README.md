@@ -3,11 +3,10 @@
 ### Initial repository for #vetswhocode. 
 
 ## TODO
-<<<<<<< HEAD
-1.	Create sample we page for "About me". 
-	Created 3 page loop
-=======
-1.
+
+1.	Create sample page for "About me" from the tutorial from Shaye Howl. 
+	Created 3 pages linked together for fun. 
+	I was bored at work. :) 
 2.
 3.
 4.
