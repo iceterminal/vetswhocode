@@ -3,10 +3,9 @@ body {
 }
 
 .navback {
-	background-image: url("navback.jpg");
+	background-image: url("images/navback.jpg");
 	height: 215px;
 	width: 100%;
-	
 	position: fixed;
 }
 
@@ -15,13 +14,14 @@ body {
 	list-style: none;
 	float: left;
 	color: white;
-	font-size: 20px;
+	font-size: 15px;
 	/*margin-left: 10px;*/
 	/*padding: 10px 10px 10px 10px;*/
 }
 
 .navback-right li {
 	font-family: sans-serif;
+	text-decoration: none;
 	list-style: none;
 	float: right;
 	color: white;
@@ -29,25 +29,30 @@ body {
 	margin: 20px 20px;
 }
 
+.navback-right a {
+	text-decoration: none;
+	color: white;
+}
+
 .samhead {
 	color: white;
 	font-size: 60px;
-	margin-left: 250px;
-	padding: 70px 0px 0px 70px;
+	text-align: center;
+	padding: 60px 0px 0px 70px;
 }
 
 .samsmall {
 	color: white;
 	font-size: 20px;
-	margin-left: 250px;
-	padding: 10px 0px 0px 70px;
+	text-align: left;
+	padding: 10px 0px 0px 500px;
 }
 
 .samtiny {
-	color: white;
+	color: #cbcaca;
 	font-size: 15px;
-	margin-left: 250px;
-	padding: 10px 0px 0px 590px;
+	text-align: center;
+	padding: 10px 0px 0px 790px;
 }
 
 .text {
@@ -56,11 +61,18 @@ body {
 	padding-top: 220px;
 }
 
-.damage {
-	background-image: url("damage.jpg");
+.about {
+	width: 50%;
+	font-family: arial, sans-serif;
 	margin: auto;
-	height: 400px;
-	width: 400px;
+	padding-top: 220px;
+}
+
+.damage {
+	background-image: url("images/lorem.jpg");
+	margin: auto;
+	height: 300px;
+	width: 500px;
 }
 
 .blockquote {
@@ -70,11 +82,11 @@ body {
   padding: 0.5em 10px;
 }
 
-.footer li {
+.footer {
 	font-family: sans-serif;
 	list-style: none;
 	float: center;
-	color: white;
+	/*color: white;*/
 	font-size: 15px;
 	text-align: center;
 	width: 65%;
@@ -82,8 +94,9 @@ body {
 	list-style: none;
 }
 
-.social-icon li {
+.social-icon {
+	float: center;
     vertical-align: top;
     display: inline;
     list-style: none;
-    
+}
