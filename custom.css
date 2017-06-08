@@ -87,7 +87,8 @@ body {
 	list-style: none;
 	float: center;
 	/*color: white;*/
-	font-size: 15px;
+	font-size: 10px;
+	font-style: italic;
 	text-align: center;
 	width: 65%;
 	margin: auto;
@@ -100,3 +101,12 @@ body {
     display: inline;
     list-style: none;
 }
+
+.func {
+  float: center;
+  margin: 15px;
+  padding: 15px;
+  width: 550px;
+  height: 300px;
+  border: 1px solid black;
+} 
