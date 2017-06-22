@@ -25,24 +25,41 @@
 				Contact Me:
 			</h2>
 			<p>
+				<form name="contact_me" method="post" action="contact.html">
+  					First Name: <br />
+  					<input type="text" name="fname" placeholder="Enter your first name" /><br />
+  					Last Name: <br />
+  					<input type="text" name="lname" placeholder="Enter Your Last Name" /><br />
+  					Email: <br />
+  					<input type="email" name="email" placeholder="Enter Your Email Address" /><br />
+  					Comments: <br />
+  					<textarea name="comments" rows="5" cols="50" wrap="soft" placeholder="Enter Your Comments Here"></textarea><br />
+  					<input type="reset" value="Reset"> <button type="submit">Submit</button>
+  					<p class="tiny">*form data is not saved*</p>
+				</form>
+			</p>
+			<p>
+				<br />
+				<p>Find and/or follow me at the following locations.</p>
+
+					<address>
+					<a href="mailto:iceterminal@gmail.com">Iceterminal</a> on gmail.<br /> 
+					<a href="https://twitter.com/iceterminal" target="_blank">Iceterminal </a> on twitter.<br />
+					<a href="https://github.com/iceterminal" target="_blank">Iceterminal</a> on github.<br />
 				
-				<p>Find me at the following locations.</p>
+				<!-- This is NOT real code, just plain text -->
 				<p class="func">
-				var iceterminal = function (name) { <br>
-				&emsp;	if (name === "David Bach") { <br>
-				&emsp;&emsp;		document.write("David is the username 'Iceterminal'."); <br>
-				&emsp;	} else { <br>
-				&emsp;&emsp;		document.write("Who is this masked intruder?"); // or return "Whos this dude?" <br>
-				&emsp;	} <br>
-				} <br>
-				iceterminal("David Bach")<br><br><br>
-				// Yes, I could be cuter with this but I think everyone gets the gist.<br>
+				var iceterminal = function (name) { <br />
+				&emsp;	if (name === "David Bach") { <br />
+				&emsp;&emsp;		document.write("David is the username 'Iceterminal'."); <br />
+				&emsp;	} else { <br />
+				&emsp;&emsp;		document.write("Who is this masked intruder?"); // or return "Whos this dude?" <br />
+				&emsp;	} <br />
+				} <br />
+				iceterminal("David Bach")<br /><br /><br />
+				// Yes, I could be cuter with this but I think everyone gets the gist.<br />
 				</p>
-				<br>
-				<address>
-				<a href="mailto:iceterminal@gmail.com">Iceterminal</a> on gmail.<br> 
-				<a href="https://twitter.com/iceterminal" target="_blank">Iceterminal </a> on twitter.<br>
-				<a href="https://github.com/iceterminal" target="_blank">Iceterminal</a> on github.<br>
+				<br />
 				</address>
 			</p>
 
