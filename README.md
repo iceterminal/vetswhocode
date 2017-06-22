@@ -4,11 +4,11 @@
 
 ## TODO
 	
-X.	Create sample page for "About me" from the tutorial from Shaye Howl. 
+Done	Create sample page for "About me" from the tutorial from Shaye Howl. 
 	Created 3 pages linked together for fun. 
 	I was bored at work. :) 
 
-X. 	Add text entry (input and textarea) into contact.html page.
+Done 	Add text entry (input and textarea) into contact.html page.
 
 3.  Add javascript to save data submitted (text file, db, etc.)
 
